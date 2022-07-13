@@ -18,5 +18,9 @@ def tushar_new():
 def surya_new():
     return render_template('surya_new.html')
 
+@app.route("/<your_name>.html")
+def <prajwal>():
+    return render_template('<prajwal>.html')
+
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=4080)
